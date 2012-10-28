@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-17 18:33+0200\n"
+"POT-Creation-Date: 2012-10-28 20:23+0100\n"
 "PO-Revision-Date: 2012-10-17 18:35+0200\n"
 "Last-Translator: Daniel García <danigm@wadobo.com>\n"
 "Language-Team: Español; Castellano <>\n"
@@ -1083,15 +1083,19 @@ msgstr "facebook"
 msgid "youtbue"
 msgstr "youtube"
 
-#: templates/base.html:171 templates/base.html.py:173
+#: templates/base.html:167
+msgid "Google+"
+msgstr ""
+
+#: templates/base.html:172 templates/base.html.py:174
 msgid "Privacy"
 msgstr "Privacidad"
 
-#: templates/base.html:174
+#: templates/base.html:175
 msgid "Terms"
 msgstr "Terminos de uso"
 
-#: templates/base.html:179
+#: templates/base.html:180
 msgid "Powered by"
 msgstr "Powered by"
 
@@ -1166,11 +1170,11 @@ msgstr "Entrar"
 msgid "Forgot it"
 msgstr "Olvidé la contraseña"
 
-#: templates/user.html:23 truekko/templates/truekko/anon_index.html:40
-#: truekko/templates/truekko/anon_index.html:104
-#: truekko/templates/truekko/anon_index.html:186
-#: truekko/templates/truekko/anon_index.html:282
-#: truekko/templates/truekko/anon_index.html:335
+#: templates/user.html:23 truekko/templates/truekko/anon_index.html:32
+#: truekko/templates/truekko/anon_index.html:75
+#: truekko/templates/truekko/anon_index.html:135
+#: truekko/templates/truekko/anon_index.html:223
+#: truekko/templates/truekko/anon_index.html:267
 #: truekko/templates/truekko/register.html:33
 #: truekko/templates/truekko/register_admin.html:39
 #: truekko/templates/truekko/register_single.html:21
@@ -2221,8 +2225,8 @@ msgid "I want add an advertise in Etruekko"
 msgstr "Quiero anunciarme en Etruekko"
 
 #: truekko/templates/search/advanced.html:54
-#: truekko/templates/truekko/anon_index.html:229
-#: truekko/templates/truekko/anon_index.html:334
+#: truekko/templates/truekko/anon_index.html:178
+#: truekko/templates/truekko/anon_index.html:266
 #: truekko/templates/truekko/channel_view.html:17
 #: truekko/templates/truekko/groups.html:3
 #: truekko/templates/truekko/user_register.html:3
@@ -2283,49 +2287,308 @@ msgstr ""
 "                    Página %(n)s de %(m)s.\n"
 "                "
 
-#: truekko/templates/truekko/anon_index.html:41
+#: truekko/templates/truekko/anon_index.html:10
+#: truekko/templates/truekko/anon_index.html:14
+#, fuzzy
+msgid "Qué es etruekko"
+msgstr "Qué es etruekko"
+
+#: truekko/templates/truekko/anon_index.html:19
+msgid ""
+"Etruekko es una red de comunidades en la que puedes intercambiar y compartir "
+"artículos, servicios y conocimientos siguiendo la filosofía de los sistemas "
+"de trueque, los bancos de tiempo y las monedas sociales."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:23
+msgid ""
+"Consigue lo que necesitas a cambio de lo que ya no usas, lo que sabes hacer, "
+"tus conocimientos y tu saldo en nuestra moneda social, a la vez que "
+"potencias el reciclaje, alargas la vida de tus bienes, reciclas, ahorras, "
+"colaboras a la sostenibilidad ambiental  y ayudas a implantar una cultura "
+"colaborativa, de empoderamiento social y ayuda mutua en tu comunidad."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:27
+msgid "Pon en valor lo que posees y sabes hacer. Crece con tu comunidad"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:33
 msgid "Register FAQ"
 msgstr "Preguntas frecuentes registro"
 
-#: truekko/templates/truekko/anon_index.html:105
-#: truekko/templates/truekko/anon_index.html:336
+#: truekko/templates/truekko/anon_index.html:39
+#: truekko/templates/truekko/anon_index.html:43
+msgid "Cómo funciona"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:47
+msgid ""
+"Etruekko está formado por comunidades autogestionadas conectadas en red, por "
+"lo tanto lo primero que debes hacer es registrarte y solicitar unirte a una "
+"comunidad, ya sea de tu barrio, universidad, asociación a la que perteneces, "
+"etc..., esta será tu entorno de confianza, no podrás interactuar hasta que "
+"el administrador de la comunidad a la que has solicitado unirte te acepte en "
+"ella."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:51
+msgid ""
+"Pertenecer a una comunidad o varias no significa estar aislado, puedes crear "
+"tu red de contactos e interactuar con otros usuarios pertenecientes a otras "
+"comunidades, confía en ellos, ya que pertenecer a Etruekko significa que un "
+"administrador te ha verificado."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:55
+msgid ""
+"En Etruekko te comunicaras y compartirás con tu red de contactos a través de "
+"su red social, podrás publicar tus ofertas y demandas ya sean bienes o "
+"servicios así como encontrar  lo que en cada momento necesites, proponiendo "
+"o recibiendo ofertas las cuales podrás negociar de manera ágil y sencilla "
+"hasta conseguir cerrar un intercambio."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:59
+msgid ""
+"Cualquier intercambio es posible, cualquier cosa que ofrezcas, ya sea un "
+"bien , servicio, conocimiento o habilidad  es susceptible de ser "
+"intercambiada, los usuarios en sus negociaciones deciden de tu a tu lo que "
+"van a intercambiar."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:63
+msgid ""
+"Además no solo podrás intercambiar lo que posees y sabes hacer, también "
+"puedes pagar con nuestra moneda social, el truekko, una moneda que no genera "
+"deuda, ni intereses ni pierde su valor y que tú mismo generas por el valor "
+"que aportas a la sociedad al realizar este tipo de consumo. También es la "
+"moneda con la que valoraras todo lo que ofrezcas."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:68
+msgid ""
+"Registrate, unete a tu comunidad y comienza a poner en valor los bienes que "
+"posees, tus conocimientos y tus habilidades"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:76
+#: truekko/templates/truekko/anon_index.html:268
 msgid "Community FAQ"
 msgstr "Preguntas frecuentes comunidades"
 
-#: truekko/templates/truekko/anon_index.html:106
+#: truekko/templates/truekko/anon_index.html:77
 msgid "To what communities can I join in"
 msgstr "A qué comunidades puedo unirme"
 
-#: truekko/templates/truekko/anon_index.html:225
-#: truekko/templates/truekko/anon_index.html:329
+#: truekko/templates/truekko/anon_index.html:83
+#: truekko/templates/truekko/anon_index.html:87
+msgid "Qué puedo hacer"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:91
+msgid ""
+"Seguro que tienes muchas cosas que ya no usas, seguro que sabes hacer muchas "
+"cosas, ofrécelo y demanda lo que necesitas, ¿Se te ha roto un grifo y tienes "
+"ropa de bebe que ya no usas?, encuentra a alguien que te lo arregle a cambio "
+"de esa ropa. Mantén actualizadas tus ofertas y demandas e incluye cuantas "
+"más cosas mejor, más posibilidades de intercambio tendrás"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:95
+msgid ""
+"¿Tienes una raqueta que apenas usas? compártela, otra persona la puede "
+"necesitar un día y no deberá comprar una, pide un alquiler por horas, días, "
+"etc... ya sea en Truekkos o en Euros"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:99
+msgid ""
+"Crea tu red de contactos y comunícate con ellos a través de nuestra Red "
+"Social"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:102
+msgid "Lo importante es el acceso a algo no su posesión"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:105
+msgid ""
+"Cuantas más ofertas y demandas tengas creadas más fácil te será llegar a un "
+"acuerdo cuando negocies un intercambio así como que te propongan "
+"transacciones"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:109
+msgid ""
+"La valoración de un bien o servicio por parte de un usuario es orientativa, "
+"no dudes en hacerle una oferta, durante la negociación esta valoración "
+"pasará a un segundo plano."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:113
+msgid ""
+"Cuando inicies una negociación con un usuario con el que no tienes relación, "
+"consulta su valoración, numero de intercambios realizados y comentarios "
+"sobre el, pero ante todo siempre confía en él"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:117
+msgid ""
+"Piensa en la cantidad de cosas que tienes en casa que  bien ya no usas o "
+"usas esporádicamente, esas cosas son las que puedes trocar si no piensas "
+"usarlas de nuevo o compartir si solo las usas de vez en cuando."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:121
+msgid ""
+"¿Sabes la cantidad de cosas que sabes hacer? todos tenemos habilidades y "
+"conocimientos aunque no las explotemos profesionalmente, ofrécete."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:125
+msgid ""
+"Piensa en Etruekko cada vez que tengas que comprar algo o necesites que te "
+"presten un servicio como primera opción antes de decidir usar tu dinero"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:129
+msgid ""
+"Consulta las ayudas que aparecen en las páginas y mira los videotutoriales"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:141
+#: truekko/templates/truekko/anon_index.html:145
+msgid "Crea tu comunidad"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:159
+msgid "Aquí puedes ver las comunidades ya creadas"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:174
+#: truekko/templates/truekko/anon_index.html:261
 #: truekko/templates/truekko/index.html:207
 #: truekko/templates/truekko/index.html:223
 #: truekko/templates/truekko/view_group.html:113
 msgid "more..."
 msgstr "más..."
 
-#: truekko/templates/truekko/anon_index.html:230
+#: truekko/templates/truekko/anon_index.html:179
 msgid "Register community"
 msgstr "Registrar una comunidad"
 
-#: truekko/templates/truekko/anon_index.html:283
+#: truekko/templates/truekko/anon_index.html:185
+#: truekko/templates/truekko/anon_index.html:189
+msgid "Qué es el Truekko"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:194
+msgid ""
+"El Truekko es nuestra moneda social. Su valor está respaldada por la "
+"confianza y por el valor que aportas a la sociedad al contribuir al "
+"reciclaje, la reutilización de recursos, la sostenibilidad medioambiental, "
+"la ayuda mutua y el empoderamiento social entre otros valores."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:198
+msgid ""
+"Los usuarios de Etruekko aceptaran el pago total o parcial en esta moneda ya "
+"que otros usuarios aceptaran que ellos les paguen con ella.  También "
+"valorarán los servicios o artículos que ofrecen en esta moneda. Su "
+"equivalencia referencial será  1 Truekko = 1 €."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:202
+msgid "Puedes conseguir Truekkos de 3 maneras distintas:"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:212
+msgid "Por cada 5 intercambios recibirás 5 Truekkos"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:216
+msgid "Por apadrinar a un amigo 5 Truekkos"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:220
+msgid ""
+"Empieza a usar un dinero diferente que no genera deuda, ni intereses ni "
+"pierde su valor"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:224
 msgid "Truekko FAQ"
 msgstr "Preguntas frecuentes Truekko"
 
-#: truekko/templates/truekko/anon_index.html:315
-#: truekko/templates/truekko/anon_index.html:418
+#: truekko/templates/truekko/anon_index.html:230
+#: truekko/templates/truekko/anon_index.html:234
+#, fuzzy
+msgid "Comunidades"
+msgstr "Comunidades"
+
+#: truekko/templates/truekko/anon_index.html:238
+msgid ""
+"La confianza es muy importante en Etruekko, cada comunidad será confiable "
+"por sí misma, ya que será gestionada por un administrador que gestionará  "
+"colectivos reducidos de usuarios con los que normalmente tiene algún tipo de "
+"relación, además irá viendo la actividad de su grupo. Por lo tanto un "
+"usuario que pertenezca a una comunidad será un usuario verificado."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:242
+msgid ""
+"La confiabilidad individual de cada comunidad hace confiable todo el sistema "
+"Etruekko, permitiéndote hacer tu propia red de contactos y redes de "
+"intercambio seguro."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:245
+msgid ""
+"Intercambia y comparte tus conocimientos, habilidades y bienes con tu "
+"comunidad. crea tus propias redes"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:247
+#: truekko/templates/truekko/anon_index.html:350
 msgid "Last Communities"
 msgstr "Últimas Comunidades"
 
-#: truekko/templates/truekko/anon_index.html:392
+#: truekko/templates/truekko/anon_index.html:301
+msgid "Cubre tus necesidades de consumo sin usar tu dinero"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:302
+msgid "Pon en valor lo que posees y sabes hacer"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:303
+msgid "Crece con tu comunidad"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:307
+msgid ""
+"Nuestros valores: Compartir, colaborar, intercambiar, ayuda mutua, "
+"confianza, sostenibilidad ambiental, empoderamiento..."
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:308
+msgid "Hazlos tuyos"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:314
+msgid "¿Quieres anunciarte aquí?"
+msgstr ""
+
+#: truekko/templates/truekko/anon_index.html:324
 msgid "Activity"
 msgstr "Actividad"
 
-#: truekko/templates/truekko/anon_index.html:399
+#: truekko/templates/truekko/anon_index.html:331
 msgid "Last Services"
 msgstr "Últimos Servicios"
 
-#: truekko/templates/truekko/anon_index.html:408
+#: truekko/templates/truekko/anon_index.html:340
 msgid "Last Items"
 msgstr "Últimos Artículos"
 
@@ -3565,9 +3828,6 @@ msgstr "Privado, si seleccionas esta opción sólo este usuario verá el mensaje
 #~ "Puedes ver el mensaje en:\n"
 #~ "http://etruekko.com%(url)s\n"
 #~ "\n"
-
-#~ msgid "What is etruekko"
-#~ msgstr "Qué es etruekko"
 
 #~ msgid "How works etruekko"
 #~ msgstr "Como funciona etruekko"
