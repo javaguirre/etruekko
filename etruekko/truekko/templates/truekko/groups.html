@@ -39,6 +39,8 @@
                 {% for k, v in filters.items %}
                     <a class="button{% if sfilter == k %} green{% endif %}" href="{% url groups k %}">{{ v.text }}</a>
                 {% endfor %}
+
+                <a class="button" href="{% url new_community_contact %}">{% trans "Register community" %}</a>
             </div>
         </div>
 
