@@ -1093,7 +1093,7 @@ msgstr "Privacidad"
 
 #: templates/base.html:175
 msgid "Terms"
-msgstr "Terminos de uso"
+msgstr "Términos de uso"
 
 #: templates/base.html:180
 msgid "Powered by"
@@ -1167,7 +1167,7 @@ msgid "Sign in"
 msgstr "Entrar"
 
 #: templates/user.html:22
-msgid "Forgot it"
+msgid "I Forgot the password"
 msgstr "Olvidé la contraseña"
 
 #: templates/user.html:23 truekko/templates/truekko/anon_index.html:32
@@ -1290,7 +1290,7 @@ msgid "Credits"
 msgstr "Créditos"
 
 #: truekko/forms.py:131
-msgid "Can't make this transfer, negative credits isn't allowed"
+msgid "Can't make this transfer, negative credits aren't allowed"
 msgstr ""
 "No es posible hacer esta transferencia, no están permitidos créditos "
 "negativos"
@@ -1339,7 +1339,7 @@ msgid "Personal description"
 msgstr "Descripción personal"
 
 #: truekko/models.py:43
-msgid "Receive mail notifiaction for all messages"
+msgid "Receive mail notifications for all messages"
 msgstr "Recibir notificaciones por correo electrónico para todos los mensajes"
 
 #: truekko/models.py:143
@@ -1481,7 +1481,7 @@ msgid "Done"
 msgstr "Hecho"
 
 #: truekko/models.py:494
-msgid "Canceled"
+msgid "Cancelled"
 msgstr "Cancelado"
 
 #: truekko/models.py:498
@@ -1626,10 +1626,10 @@ msgstr "Información del anunciante"
 
 #: truekko/tooltips.py:10
 msgid ""
-"Veras todo lo que publiquen las personas a las que sigues, lo que cualquier "
-"usuario o el administrador publique en el muro de la comunidad o comunidades "
-"a las que perteneces, lo que cualquier usuario publique en tu muro, tus "
-"mensajes privados y las últimas ofertas y demandas de  tus comunidades"
+"You will see all publications of people you follow, publications"
+"from the users or the administrator of the community wall"
+"you belong. You could see publications of other users in your wall, your"
+"private messages and last offers and demands in the communities you are."
 msgstr ""
 "Veras todo lo que publiquen las personas a las que sigues, lo que cualquier "
 "usuario o el administrador publique en el muro de la comunidad o comunidades "
@@ -1638,10 +1638,10 @@ msgstr ""
 
 #: truekko/tooltips.py:17
 msgid ""
-"Lo que publiques aquí será visto por todas las personas que te siguen "
-"únicamente, si quieres que además lo vea toda tu comunidad publica "
-"directamente en su muro y si quieres que solo lo vean los usuarios de tu "
-"comunidad publica en su muro y selecciona el check PRIVADO "
+"The things you publish here will be seen for anyone who follows you"
+"if you want your community to see yous posts you can write"
+"in its wall. If you want only users from your community publish"
+"in its wall and check PRIVATE "
 msgstr ""
 "Lo que publiques aquí será visto por todas las personas que te siguen "
 "únicamente, si quieres que además lo vea toda tu comunidad publica "
@@ -1650,10 +1650,10 @@ msgstr ""
 
 #: truekko/tooltips.py:23
 msgid ""
-"Seleccionándolo veras los mensajes privados que has recibido. Estos mensajes "
-"solo los puedes ver tu y el usuario que lo te lo ha escrito. Para publicar "
-"un mensaje privado a un usuario, ve a su perfil, publica en su muro y "
-"selecciona el check PRIVADO"
+"Selecting it you will see private messages you received. These messages "
+"can be seen by you and the user who wrote it. If you want to publish"
+"a private message to a user, go to his/her profile, post in his wall and "
+"select the PRIVATE checkbox."
 msgstr ""
 "Seleccionándolo veras los mensajes privados que has recibido. Estos mensajes "
 "solo los puedes ver tu y el usuario que lo te lo ha escrito. Para publicar "
@@ -1662,16 +1662,16 @@ msgstr ""
 
 #: truekko/tooltips.py:29
 msgid ""
-"Compromisos que has adquirido con otro usuario al realizar un intercambio, P."
-"e. Juan y Pablo han hecho un intercambio, Juan  ha cambiado su bicicleta con "
-"Pablo a cambio de que este le entregue 50 Kg. de naranjas cuando tenga su "
-"cosecha, Pablo, aparecerá en su muro como MIS COMPROMISOS ha adquirido un "
-"compromiso a favor de Juan aparecerá en su muro como COMPROMISOS CONMIGO. "
-"Los compromisos se crean al realizar un intercambio, aparece a final de la "
-"pagina el botón AÑADIR COMPROMISO, solo lo puede crear el usuario que recibe "
-"una oferta y lo debe confirmar el usuario que entrega el bien o servicio "
-"comprometido llegado el momento, desapareciendo de los muros de ambos "
-"usuarios"
+"Compromises you have adquired with other user when you have a exchange with him."
+"Example: Jane and John han done an exchange, John has changes his bike with "
+"Jane in exchange of 50 kilos of oranges when they were good to be eaten."
+"Jane will be shown in his wall as MY COMPROMISES, has adquired a"
+"COMPROMISE with John and he will have in his wall COMPROMISES WITH ME. "
+"Compromises are created when you have an exchange, it's shown at the end"
+"of thw ADD COMPROMISE button, It could only be created the user who receives "
+"an offer and it has to be confirmed by the user who delivers it."
+""
+""
 msgstr ""
 "Compromisos que has adquirido con otro usuario al realizar un intercambio, P."
 "e. Juan y Pablo han hecho un intercambio, Juan  ha cambiado su bicicleta con "
@@ -1686,12 +1686,11 @@ msgstr ""
 
 #: truekko/tooltips.py:42
 msgid ""
-"Un usuario puede denunciar a otro en el caso de que haya existido algún tipo "
-"de problema a la hora de realizar un intercambio, el administrador de tu "
-"comunidad la recibe y la resuelve de la manera que crea conveniente. Su "
-"estado puede ser, pendiente si el administrador la ha recibido y aun no la "
-"ha visto, confirmado si el administrador la ha visto pero está pendiente de "
-"resolver"
+"A user can sue another user if there is some kind of a problem when "
+"an exchange is made, the admin of you community receives it and solves it "
+"in the way he could. Sue status could be pending if the admin has received it "
+" but he couldn't see it, or confirmed if he did but he didn't solve the problem"
+""
 msgstr ""
 "Un usuario puede denunciar a otro en el caso de que haya existido algún tipo "
 "de problema a la hora de realizar un intercambio, el administrador de tu "
@@ -1702,10 +1701,10 @@ msgstr ""
 
 #: truekko/tooltips.py:51
 msgid ""
-"En tu muro se publicara todo lo que estas personas publiquen, pero no verán "
-"lo que tu publicas si no te siguen, aun así puedes escribir en su muro "
-"directamente y comunicarte con él, solo debes ir a su perfil y escribir en "
-"su muro, si solo quieres que lo vea el selecciona el check PRIVADO"
+"In your wall will appear everything everyone is publishing, but"
+"but they won't see what you publish unless they follow you. You will be able"
+"to communicate with them directly , you just need to go to his/her profile and"
+"publish in the wall, if you want it to be PRIVATE, check the corresponding checkbox"
 msgstr ""
 "En tu muro se publicara todo lo que estas personas publiquen, pero no verán "
 "lo que tu publicas si no te siguen, aun así puedes escribir en su muro "
@@ -1714,16 +1713,16 @@ msgstr ""
 
 #: truekko/tooltips.py:58
 msgid ""
-"Estas personas ven todo lo que publicas en tu muro, pero tú no puedes ver lo "
-"que ellas publican, si quieres verlo debes de seguirlas, aun así pueden "
-"escribir en tu muro directamente"
+"These people can see everything you publish, but you cannot see "
+"what they publish, if you want to see it you need to follow them, and they"
+"have to write in your wall directly"
 msgstr ""
 "Estas personas ven todo lo que publicas en tu muro, pero tú no puedes ver lo "
 "que ellas publican, si quieres verlo debes de seguirlas, aun así pueden "
 "escribir en tu muro directamente"
 
 #: truekko/tooltips.py:63
-msgid "Ponte en contacto con nosotros y otros administradores publicando aquí"
+msgid "Get in touch with us and the other administrators writing here"
 msgstr "Ponte en contacto con nosotros y otros administradores publicando aquí"
 
 #: truekko/tooltips.py:64

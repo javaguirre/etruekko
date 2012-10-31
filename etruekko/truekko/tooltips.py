@@ -8,59 +8,54 @@ tooltips = {}
 
 # wall tab
 tooltips['wall'] = _(\
-u"Veras todo lo que publiquen las personas a las que sigues, lo "
-u"que cualquier usuario o el administrador publique en el muro de la "
-u"comunidad o comunidades a las que perteneces, lo que cualquier usuario "
-u"publique en tu muro, tus mensajes privados y las últimas ofertas y "
-u"demandas de  tus comunidades")
+u"You will see all publications of people you follow, publications"
+u"from the users or the administrator of the community wall"
+u"you belong. You could see publications of other users in your wall, your"
+u"private messages and last offers and demands in the communities you are.")
 
 tooltips['whats_happening'] = _(\
-u"Lo que publiques aquí será visto por todas las personas que te siguen "
-u"únicamente, si quieres que además lo vea toda tu comunidad publica "
-u"directamente en su muro y si quieres que solo lo vean los usuarios de tu "
-u"comunidad publica en su muro y selecciona el check PRIVADO ")
+u"The things you publish here will be seen for anyone who follows you"
+u"if you want your community to see yous posts you can write"
+u"in its wall. If you want only users from your community publish"
+u"in its wall and check PRIVATE ")
 
 tooltips['private'] = _(\
-u"Seleccionándolo veras los mensajes privados que has "
-u"recibido. Estos mensajes solo los puedes ver tu y el usuario que lo te "
-u"lo ha escrito. Para publicar un mensaje privado a un usuario, ve a su "
-u"perfil, publica en su muro y selecciona el check PRIVADO")
+"Selecting it you will see private messages you received. These messages "
+"can be seen by you and the user who wrote it. If you want to publish"
+"a private message to a user, go to his/her profile, post in his wall and "
+"select the PRIVATE checkbox.")
 
 tooltips['commitments'] = _(\
-u"Compromisos que has adquirido con otro usuario al "
-u"realizar un intercambio, P.e. Juan y Pablo han hecho un intercambio, "
-u"Juan  ha cambiado su bicicleta con Pablo a cambio de que este le "
-u"entregue 50 Kg. de naranjas cuando tenga su cosecha, Pablo, aparecerá "
-u"en su muro como MIS COMPROMISOS ha adquirido un compromiso a favor de "
-u"Juan aparecerá en su muro como COMPROMISOS CONMIGO. Los compromisos se "
-u"crean al realizar un intercambio, aparece a final de la pagina el "
-u"botón AÑADIR COMPROMISO, solo lo puede crear el usuario que recibe una "
-u"oferta y lo debe confirmar el usuario que entrega el bien o servicio "
-u"comprometido llegado el momento, desapareciendo de los muros de ambos "
-u"usuarios")
+u"Compromises you have adquired with other user when you have a exchange with him."
+u"Example: Jane and John han done an exchange, John has changes his bike with "
+u"Jane in exchange of 50 kilos of oranges when they were good to be eaten."
+u"Jane will be shown in his wall as MY COMPROMISES, has adquired a"
+u"COMPROMISE with John and he will have in his wall COMPROMISES WITH ME. "
+u"Compromises are created when you have an exchange, it's shown at the end"
+u"of thw ADD COMPROMISE button, It could only be created the user who receives "
+u"an offer and it has to be confirmed by the user who delivers it."
+u""
+u"")
 
 tooltips['denounces'] = _(\
-u"Un usuario puede denunciar a otro en el caso de que haya "
-u"existido algún tipo de problema a la hora de realizar un "
-u"intercambio, el administrador de tu comunidad la recibe y la "
-u"resuelve de la manera que crea conveniente. Su estado puede ser, "
-u"pendiente si el administrador la ha recibido y aun no la ha visto, "
-u"confirmado si el administrador la ha visto pero está pendiente de "
-u"resolver")
+u"A user can sue another user if there is some kind of a problem when "
+u"an exchange is made, the admin of you community receives it and solves it "
+u"in the way he could. Sue status could be pending if the admin has received it "
+u" but he couldn't see it, or confirmed if he did but he didn't solve the problem"
+u"")
 
 tooltips['following'] = _(\
-u"En tu muro se publicara todo lo que estas "
-u"personas publiquen, pero no verán lo que tu publicas si no te siguen, "
-u"aun así puedes escribir en su muro directamente y comunicarte con él, "
-u"solo debes ir a su perfil y escribir en su muro, si solo quieres que "
-u"lo vea el selecciona el check PRIVADO")
+u"In your wall will appear everything everyone is publishing, but"
+u"but they won't see what you publish unless they follow you. You will be able"
+u"to communicate with them directly , you just need to go to his/her profile and"
+u"publish in the wall, if you want it to be PRIVATE, check the corresponding checkbox")
 
 tooltips['followers'] = _(\
-u"Estas personas ven todo lo que publicas en tu "
-u"muro, pero tú no puedes ver lo que ellas publican, si quieres verlo "
-u"debes de seguirlas, aun así pueden escribir en tu muro directamente")
+u"Estas personas ven todo lo que publicas en tu muro, pero tú no puedes ver lo "
+u"que ellas publican, si quieres verlo debes de seguirlas, aun así pueden "
+u"escribir en tu muro directamente")
 
-tooltips['etruekko_wall'] = _(u"Ponte en contacto con nosotros y otros administradores publicando aquí")
+tooltips['etruekko_wall'] = _(u"Get in touch with us and the other administrators writing here")
 tooltips['channel_wall'] = _(\
 u"Podrás comunicarte con los administradores de otras "
 u"comunidades pertenecientes al mismo canal que tú, podrás intercambiar "
