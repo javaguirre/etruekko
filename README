@@ -1,0 +1,17 @@
+Etruekko
+========
+
+Barter platform
+
+Installation
+---
+
+Set up the environment
+
+./setup-env.sh
+
+Configure the DB if necessary in settings.py
+
+Load example data with...
+
+./test-db.sh
